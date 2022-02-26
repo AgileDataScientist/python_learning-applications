@@ -1,4 +1,5 @@
 # Virtual Environment
-base
+tech_with_tim/multiclipboard/base
 
 # API keys
+tech_with_tim/config.py

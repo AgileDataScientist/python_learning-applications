@@ -1,0 +1,1 @@
+{"first": "ModuleNotFoundError: No module named 'clipboard'", "second": "print(\"Data copied from clipboard!\")"}

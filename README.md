@@ -1,6 +1,10 @@
 # Tech With Tim Applications
 
-## Appendix
+## Multi Clipboard Application
+
+### Virtual Environment
+Start the virtual environment
+    - ./base/Scripts/activate
 
 ### File Structure
 _python_learning-applications
