@@ -1,10 +1,13 @@
-# Tech With Tim Applications
+# Python Learning Applications
 
 ## Multi Clipboard Application
 
 ### Virtual Environment
-Start the virtual environment
-    - ./base/Scripts/activate
+Within the Multiclipboard directory, start the virtual environment with this command:
+  - ./base/Scripts/activate
+
+Within the Weather and Email directories, start the virtual environment with this command:
+  - ../_python_learning_applications/tech_with_tim/multiclipboard/base/Scripts/activate
 
 ### File Structure
 _python_learning-applications
