@@ -11,7 +11,9 @@ Within the Weather and Email directories, start the virtual environment with thi
 
 ### Weather Application
 
-Tech With Tim's video for the Weather application can be found at this link address: [Weather Application](https://youtu.be/Oz3W-LKfafE?t=1784)
+Tech With Tim's video for the Weather application can be found at this link address: 
+- [Weather Application](https://youtu.be/Oz3W-LKfafE?t=1784)
+- [Send Email Application](https://youtu.be/Oz3W-LKfafE?t=2537)
 
 ### File Structure
 _python_learning-applications
