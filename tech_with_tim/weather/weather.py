@@ -2,10 +2,22 @@ import requests
 import json
 
 with open("config.json") as json_data_file:
-    data = json.load(json_data_file)
-print(data["API_KEY"])
+    data_key = json.load(json_data_file)
+    API_KEY = data_key["API_KEY"]
 
-#BASE_URL = "openweathermap.org"
+# api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 
-#city = input("Enter a city name: ")
-#request_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
+BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
+
+city = input("Enter a city name: ")
+request_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
+response = requests.get(request_url)
+
+if response.status_code == 200:
+    data = response.json()
+    weather = data["weather"][0]["description"]
+    temperature = round(data["main"]["temp"]-273.15, 2)
+    print("Weather: ", weather)
+    print("Temperature", temperature, " celcius")
+else:
+    print("An error has occurred.")
